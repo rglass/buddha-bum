@@ -1,0 +1,37 @@
+2007-11-21 v0.01
+
+Sorting Algorithms
+==================
+
+This is a basic framework for functional sorting-algorithms.  They are
+a prototype for an implementation in a faster language and designed to
+run on multiple processors.
+
+The modules:
+-- baselist:
+   Base classes for functional recursive sorting algorithms.
+
+-- basesort:
+   A data-type for sorting-function.
+
+-- help:
+   Helper Functions to realise various primitive operations.
+
+-- interfaces:
+   Contains the visitor interface for an abstraction of all common
+   function on the list data-type and the manager for this type. 
+
+-- listman:
+   To play around with the list, we are trying to hide state behind
+   this man.
+
+-- sorting algorithms:
+   Implemented algorithms at the time are:
+   -- selection sort,
+   -- insertion sort,
+   -- merge sort,
+   -- quick sort.
+   
+Hope you got a quick overview. For more questions, information:
+roman.glass(at)gmx.net
+http://home.fh-oow.de/~ro2015/
